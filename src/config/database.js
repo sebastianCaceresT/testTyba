@@ -3,9 +3,9 @@ const {promisify}=require('util');
 
 const pool = mysql.createPool({
   host: "localhost",
-  port : "3306",
-  user: "userTest",
-  password: "password",
+  port : "8889",
+  user: "root",
+  password: "root",
   database:'pruebaTyba',
 });
 pool.getConnection((err,connection)=>{
